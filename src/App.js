@@ -9,11 +9,12 @@ import LoginForm from './components/LoginForm';
 class App extends Component {
   componentWillMount() {
     const config = {
-      apiKey: 'AIzaSyBR4FTGiOcTZ5OBNi6thE0KhCDR3PaOtQM',
-      authDomain: 'manager-2328b.firebaseapp.com',
-      databaseURL: 'https://manager-2328b.firebaseio.com',
-      storageBucket: 'manager-2328b.appspot.com',
-      messagingSenderId: '193075244299'
+      apiKey: "AIzaSyBoWPCG_5957t5RK60oGa6yRCcyaYJ7rc8",
+      authDomain: "management-project-224b2.firebaseapp.com",
+      databaseURL: "https://management-project-224b2.firebaseio.com",
+      projectId: "management-project-224b2",
+      storageBucket: "management-project-224b2.appspot.com",
+      messagingSenderId: "324787196237"
     };
 
     firebase.initializeApp(config);
